@@ -1,0 +1,42 @@
+body{
+  background-image: url("http://l7.alamy.com/zooms/1fb0366cb06243949a5d3ae820fa68b5/newspaper-collage-d1f926.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+  text-align: center;
+
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+div{
+  background-color: rgba(213, 224, 0, 0.60);
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+h3{
+font-family: 'Barrio', cursive;
+font-size: 30px;
+font-weight: bolder;
+}
+
+h2{
+font-family: 'Barrio', cursive;
+font-size: 30px;
+font-weight: bolder;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+
+a:hover {
+    color: yellow;
+}

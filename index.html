@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mad Libs</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Barrio|Lato" rel="stylesheet">
+
+
+  </head>
+
+  <body  ng-app="myMod">
+    <div>
+  <nav>
+<a href="#/input">Form</a>
+<a href= "#/display">View</a>
+  </nav>
+
+<h3> Mad Libs</h3>
+
+<p> <label> Noun <input type= "text" ng-model="libs.noun"/> </label> </p>
+<p> <label> adjective <input type= "text" ng-model="libs.adj"/> </label> </p>
+<p> <label> verb <input type= "text" ng-model= "libs.verb"/> </label> </p>
+<p> <label> number <input type= "number" ng-model ="libs.num"/> </label> </p>
+<p> <label> color <input type= "text" ng-model = "libs.color"/> </label> </p>
+<p> <label> noun <input type= "text" ng-model = "libs.noun2"/> </label> </p>
+<p> <label> verb <input type= "text" ng-model ="libs.verb2"/> </label> </p>
+
+<button type="button" name="lib it up" ng-click= "libName(libs)"> Lib It Up</button>
+
+
+</div>
+
+
+
+
+<ng-view></ng-view>
+
+<script src ="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+<script src ="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-route.js"></script>
+<script src ="module.js"></script>
+<script src ="factory.js"></script>
+<script src ="displayController.js"></script>
+<script src ="inputController.js"></script>
+
+  </body>
+</html>
